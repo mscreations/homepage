@@ -54,6 +54,7 @@ nav:
           - widgets/services/cloudflared.md
           - widgets/services/coin-market-cap.md
           - widgets/services/crowdsec.md
+          - widgets/services/cyberpower.md
           - widgets/services/customapi.md
           - widgets/services/deluge.md
           - widgets/services/develancacheui.md
