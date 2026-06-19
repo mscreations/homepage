@@ -14,20 +14,20 @@ export default function Component({ service }) {
   if (!data) {
     return (
       <Container service={service}>
-        <Block label="Status" />
-        <Block label="Load %" />
-        <Block label="Capacity %" />
-        <Block label="Runtime Min" />
+        <Block label="cyberpower.status" />
+        <Block label="cyberpower.load" />
+        <Block label="cyberpower.capacity" />
+        <Block label="cyberpower.runtime" />
       </Container>
     );
   }
 
   return (
     <Container service={service}>
-      <Block label="Status" value={data.battery.status} />
-      <Block label="Load %" value={data.output.load} />
-      <Block label="Capacity %" value={data.battery.capacity} />
-      <Block label="Runtime Min" value={data.battery.runtime} />
+      <Block label="cyberpower.status" value={data.battery.status} />
+      <Block label="cyberpower.load" value={data.output.load} />
+      <Block label="cyberpower.capacity" value={data.battery.capacity} />
+      <Block label="cyberpower.runtime" value={data.battery.runtime} />
     </Container>
   );
 }

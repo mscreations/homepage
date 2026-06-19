@@ -39,10 +39,10 @@ describe("widgets/cyberpower/component", () => {
     });
 
     expect(container.querySelectorAll(".service-block")).toHaveLength(4);
-    expect(screen.getByText("Status")).toBeInTheDocument();
-    expect(screen.getByText("Load %")).toBeInTheDocument();
-    expect(screen.getByText("Capacity %")).toBeInTheDocument();
-    expect(screen.getByText("Runtime Min")).toBeInTheDocument();
+    expect(screen.getByText("cyberpower.status")).toBeInTheDocument();
+    expect(screen.getByText("cyberpower.load")).toBeInTheDocument();
+    expect(screen.getByText("cyberpower.capacity")).toBeInTheDocument();
+    expect(screen.getByText("cyberpower.runtime")).toBeInTheDocument();
   });
 
   it("renders values when loaded", () => {

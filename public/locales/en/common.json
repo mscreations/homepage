@@ -1215,5 +1215,11 @@
         "burned": "Burned",
         "remaining": "Remaining",
         "steps": "Steps"
+    },
+    "cyberpower": {
+        "status": "Status",
+        "load": "Load",
+        "capacity": "Battery Capacity",
+        "runtime": "Run Time"
     }
 }
